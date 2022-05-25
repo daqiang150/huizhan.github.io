@@ -1,0 +1,3010 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta name="" content=""/>
+  <title>会展协会</title> 
+  <link rel="stylesheet" type="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+   <!-- <script  src="js/script.js"></script> -->
+   <script src="js/jquery-3.0.0.min.js"></script>
+
+   <script>
+    
+//     window.onload=function(){
+//       // 购物车下拉列表
+//     let shop = document.getElementsByClassName("shop")[0];
+//     let shopA = document.getElementsByClassName("shopA")[0];
+//     let shopXiala = document.getElementsByClassName("shop-xiala")[0];
+//     shop.onmouseover = function(){
+//       shopA.style =`background-color:#fff;color:#ff6700`;
+//       shopXiala.style = `height:98px`;
+//     }
+//     shop.onmouseout = function(){
+//       shopA.style =`background-color:#424242;color:#b0b0b0;transition:background-color 0s .3s;`;
+//       shopXiala.style = `height:0`;
+//     }
+
+//   //导航栏选项卡
+//   let navBox = document.querySelector(".mainnav>.center");
+//   let navTit = document.querySelectorAll(".mainnav>.center>ul>.nav-tit");
+//   let navXiala = document.querySelectorAll(".mainnav>.center>ul>li>.nav-xiala");
+//   navBox.onmouseenter = function(){
+//       navXiala.forEach((itme)=>itme.classList.add("transition"));
+//     }
+//   for(let i=0;i<navTit.length;i++){
+//     navTit[i].onmouseover = function(){
+//       navXiala[i].classList.add("active");
+//     }
+//     navTit[i].onmouseout = function(){
+//       navXiala[i].classList.remove("active");
+//       navXiala.forEach((itmes)=>itmes.classList.remove("transition"));
+//         navXiala[i].classList.add("transition");
+//     }
+//   }
+//   //banner轮播
+//   let son = document.querySelectorAll(".bannerimg");
+//     let banner = document.querySelector(".bannerimgboxs");
+//     let btn = document.querySelectorAll(".bannerright>ul>li>a");
+//     let prve = document.querySelector(".anniuleft");
+//     let next = document.querySelector(".anniuright");
+//     let t = setInterval(run,2000);
+//     let index = 0;
+//     function run(type="next"){
+//       if(type=="next"){
+//             index++;
+//             if(index>4){
+//                 index = 0;
+//             }
+//         }else if(type=="prve"){
+//             index--;
+//             if(index<0){
+//                 index = 4;
+//             }
+//         }
+//         son.forEach((item)=>{item.classList.remove("active")});
+//         son[index].classList.add("active");   
+//         btn.forEach((item)=>{item.classList.remove("active")});
+//         btn[index].classList.add("active");      
+//     }
+
+//     banner.onmouseover = function(){
+//         clearInterval(t);
+//     }
+//     banner.onmouseout = function(){
+//         t = setInterval(run,3000);
+//     }
+//     for(let i=0;i<btn.length;i++){
+//         btn[i].onclick = function(){
+//           index = i;
+//             son.forEach((item)=>{item.classList.remove("active")});
+//             btn.forEach((item)=>{item.classList.remove("active")});
+//             son[index].classList.add("active");
+//             btn[index].classList.add("active");
+//         }
+//     }
+
+//     next.onclick = function(){
+//         run();
+//     }
+//     prve.onclick = function(){
+//         run("prve");
+//     }
+//     //banner左侧选项卡效果
+//   let bannerleftTit = document.querySelectorAll(".bannerleft1");
+//   let bannerleftcon = document.querySelectorAll(".childer");
+//   for(let i=0;i<bannerleftTit.length;i++){
+//     bannerleftTit[i].onmouseover = function(){
+//       bannerleftcon.forEach((itmes)=>itmes.style="display:none");
+//       bannerleftcon[i].style="display:block";
+//     }
+//     bannerleftTit[i].onmouseout = function(){
+//       bannerleftcon.forEach((itmes)=>itmes.style="display:none");
+//     }
+//   }
+//   //小米明星单品
+//   let btnLeft = document.querySelector(".conone>.conone-top>.btns>.btn-left");
+//   let btnRight = document.querySelector(".conone>.conone-top>.btns>.btn-right");
+//   let conOne = document.querySelector(".conone-con");
+//   btnLeft.onclick = function(){
+//     conOne.style.left ="0";
+//     btnLeft.classList.add("active");
+//     btnRight.classList.remove("active");
+//   }
+//   btnRight.onclick = function(){
+//     conOne.style.left ="-1226px";
+//     btnLeft.classList.remove("active");
+//     btnRight.classList.add("active");
+//   }
+// //家电选项卡效果
+//   function xuanxiangka(str){
+//     let conTit = document.querySelectorAll(str+">.remen-li");
+//     let conlis = document.querySelectorAll(str+">.con-con-right-con");
+//     for(let i=0;i<conTit.length;i++){
+//       conTit[i].onmouseover = function(){
+//         conTit.forEach((itmes)=>itmes.className="remen-li");
+//         conTit[i].className="remen-li active";
+//         conlis.forEach((itmes)=>itmes.className="con-con-right-con");
+//         conlis[i].className="con-con-right-con active";
+//       }
+//     }
+//   }
+//   xuanxiangka(".zhineng");
+// }
+   </script>
+ </head>
+ <body>
+ <!-- 顶部导航 -->
+  <div class="topnavbox">
+    <div class="topnav">
+      <div class="nav1">
+        <a href="">首页</a>
+        <span>|</span>
+        <a href="">会展中心</a>
+        <span>|</span>
+        <a href="">行业目录</a>
+        <span>|</span>
+        <a href="">VR云展会</a>
+        <span>|</span>
+        <a href="">展会百科</a>
+        <span>|</span>
+        <a href="">展会服务</a>
+        <span>|</span>
+        <a href="">展台搭建</a>
+        <span>|</span>
+        <a href="">展品运输</a>
+        <span>|</span>
+        <a href="">资质证照</a>
+        <span>|</span>
+        <a href="">协议规则</a>
+        <span>|</span>
+        <a href="">下载app</a>
+      </div>
+      <div class="shop">
+        <a class="shopA" href="">
+          <i class="iconfont icon-gouwuchekong"></i>购物车（0）
+        </a>
+        <div class="shop-xiala">还没有报名展会，赶紧报名吧！
+        </div>
+      </div>
+      <div class="nav2">
+        <a href="login.html">登录</a>
+        <span>|</span>
+        <a href="register-remain.html">注册</a>
+        <span>|</span>
+        <a href="">消息通知</a>
+      </div>
+    </div>
+  </div>
+  <!-- 主导航 -->
+  <div class="mainnavbox">
+    <div class="mainnav">
+      <div class="logo">
+        <a href="#"></a>
+      </div>
+      <div class="mainnavbanner"> </div>
+      <div class="center">
+        <ul>
+          <li class="nav-tit">
+            <a  href="#">找产品</a>
+            <div  class="nav-xiala">
+              <div class="nav-xiala-con">
+                <ul>
+                  <li class="first">
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img1-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        电子/电力/通讯/网络
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                    
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img1-2.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        办公/礼品/消费品/玩具
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                   
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img1-3.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        家具/家电/家居
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img1-4.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        食品/果蔬/饮料/酒
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img1-5.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        机械/五金/工业
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img1-6.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        化工/环保/能源
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-tit">
+            <a  href="#">找城市</a>
+            <div class="nav-xiala">
+              <div class="nav-xiala-con">
+                <ul>
+                  <li class="first">
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img2-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        亚洲展会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                   
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img2-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        欧洲展会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                   
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img2-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        非洲展会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                    
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img2-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        北美洲展会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                   
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img2-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        南美洲展会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img2-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        大洋洲展会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-tit">
+            <a  href="#">主办方</a>
+            <div class="nav-xiala">
+              <div class="nav-xiala-con">
+                <ul>
+                  <li class="first">
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img3-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国上海高美爱博展览
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img3-2.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国北京玩具协会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img3-3.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国北京美沙会展有限公司
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img3-4.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        佛山中国陶瓷城集团有限公司
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img3-5.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国山东轻工业联合会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img3-6.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国泰州国际医药博览会
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-tit">
+            <a  href="#">参展商</a>
+            <div class="nav-xiala">
+              <div class="nav-xiala-con">
+                <ul>
+                  <li class="first">
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img4-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        无锡裕力机械有限公司
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                    
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img4-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        西尔伍德机械有限公司
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                   
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img4-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        爱色丽德国分公司
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                   
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img4-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        洛阳市太学染化有限公司
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                    
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img4-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        奥地利托福勃格公司
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                    
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img4-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        浙江华章科技有限公司
+                      </a>
+                    </div>
+                     <p class="price">了解详情</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-tit">
+            <a  href="#">展馆</a>
+            <div class="nav-xiala">
+              <div class="nav-xiala-con">
+                <ul>
+                  <li class="first">
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img5-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国宁波国际会议展览中心
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img5-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国北京万达索菲特大酒店
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img5-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国广东顺德展览中心
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img5-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国香港喜来登大酒店
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img5-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国深圳国际会展中心
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img5-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        中国沈阳科学宫会展中心
+                      </a>
+                    </div>
+                    <p class="price">了解详情</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          
+         <!--  <li class="nav-tit" >
+            <a href="#">路由器</a>
+            <div class="nav-xiala">
+              <div class="nav-xiala-con">
+                <ul>
+                  <li class="first">
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img7-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米路由器 3A
+                      </a>
+                    </div>
+                    <p class="price">139元</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img7-2.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米路由器 HD/Pro
+                      </a>
+                    </div>
+                    <p class="price">499元</p>
+                    <div class="flags">
+                      <div class="flag">大容量</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img7-3.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米路由器 3G
+                      </a>
+                    </div>
+                    <p class="price">249元</p>
+                    <div class="flags">
+                      <div class="flag">双千兆</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img7-4.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米路由器 3
+                      </a>
+                    </div>
+                    <p class="price">149元</p>
+                    <div class="flags">
+                      <div class="flag">双频</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img7-5.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米路由器 3C
+                      </a>
+                    </div>
+                    <p class="price">99元</p>
+                    <div class="flags">
+                      <div class="flag">包邮</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img7-6.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米WiFi放大器 Pro
+                      </a>
+                    </div>
+                    <p class="price">79元</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-tit" >
+            <a href="#">智能硬件</a>
+            <div class="nav-xiala">
+              <div class="nav-xiala-con">
+                <ul>
+                  <li class="first">
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img8-1.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米无人机
+                      </a>
+                    </div>
+                    <p class="price">2999元</p>
+                    <div class="flags">
+                      <div class="flag">航拍利器</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img8-2.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米手环2
+                      </a>
+                    </div>
+                    <p class="price">149元</p>
+                    <div class="flags">
+                      <div class="flag">包邮</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img8-3.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        小米净水器
+                      </a>
+                    </div>
+                    <p class="price">1499元起</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img8-4.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        米家扫地机器人
+                      </a>
+                    </div>
+                    <p class="price">1699元</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img8-5.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        米家压力IH电饭煲
+                      </a>
+                    </div>
+                    <p class="price">999元</p>
+                  </li>
+                  <li>
+                    <div class="nav-xiala-img">
+                      <a href="">
+                        <img src="img/nav-xiala-img8-6.png" alt="">
+                      </a>
+                    </div>
+                    <div class="nav-xiala-tit">
+                      <a href="">
+                        查看全部 <br>智能硬件
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li> -->
+          <li><a  href="#">专业观众</a></li>
+          <li><a  href="#">服务</a></li>
+          <li><a  href="#">社区</a></li>
+        </ul>
+      </div>      
+      <div class="right">
+        <div class="right1">  
+          <input class="text" type="text" value="">
+          <div class="right1-wenzi">
+            <a class="right1-wenzi1" href="#">
+            广交会
+            </a>
+          </div>
+        </div>
+        <a class="right2" href="#">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- banner -->
+  <div class="bannerbox">
+    <div class="banner">
+      <div class="bannerimgboxs">
+        <div class="bannerimg active">
+          <a href="">
+            <img src="img/banner1.jpg" alt="">
+          </a>
+        </div>
+        <div class="bannerimg">
+          <a href="">
+            <img src="img/banner2.jpg" alt="">
+          </a>
+        </div>
+        <div class="bannerimg">
+          <a href="">
+            <img src="img/banner3.jpg" alt="">
+          </a>
+        </div>
+        <div class="bannerimg">
+          <a href="">
+            <img src="img/banner4.jpg" alt="">
+          </a>
+        </div>
+        <div class="bannerimg">
+          <a href="">
+            <img src="img/banner5.jpg" alt="">
+          </a>
+        </div>
+        <div class="bannerright">
+          <ul>
+            <li><a class="active"></a></li>
+            <li><a></a></li>
+            <li><a></a></li>
+            <li><a></a></li>
+            <li><a></a></li>
+          </ul>
+        </div>
+        <a class="anniuleft"></a>
+        <a class="anniuright"></a>  
+      </div>
+      <div class="bannerleft">
+        <ul>
+          <li class="bannerleft1">
+            <a  href="#">建材、石材、照明、暖通</a> 
+            <span>〉</span>
+            <div class="childer childer-big">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-1.png" alt="">
+                    <i class="text">卧室灯</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-2.png" alt="">
+                    <i class="text">吸顶灯</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-3.png" alt="">
+                    <i class="text">建材扫描仪</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-4.png" alt="">
+                    <i class="text">电视墙</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-5.png" alt="">
+                    <i class="text">自粘墙</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-6.png" alt="">
+                    <i class="text">瓷砖展架</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-7.png" alt="">
+                    <i class="text">记号蜡笔</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-8.png" alt="">
+                    <i class="text">免钉胶</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-9.png" alt="">
+                    <i class="text">防滑护角线</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-10.png" alt="">
+                    <i class="text">水晶玻璃</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-11.png" alt="">
+                    <i class="text">标签纸</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-12.png" alt="">
+                    <i class="text">大理石瓷砖</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-13.png" alt="">
+                    <i class="text">背景墙</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-14.png" alt="">
+                    <i class="text">玄关</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-15.png" alt="">
+                    <i class="text">铺路石</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-16.png" alt="">
+                    <i class="text">保温石材</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-17.png" alt="">
+                    <i class="text">金刚石水磨片</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-18.png" alt="">
+                    <i class="text">涂料色卡</i>
+                  </a>
+                </li>
+              </ul>
+             <!-- <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-19.png" alt="">
+                    <i class="text">移动4G+专区</i>
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-20.png" alt="">
+                    <i class="text">小米移动 电话卡</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-21.png" alt="">
+                    <i class="text">手机上门维修</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-1-22.png" alt="">
+                    <i class="text">云服务空间月卡</i>
+                  </a>
+                </li>
+                
+              </ul> -->
+            </div> 
+          </li>
+          <li class="bannerleft1">
+            <a href="">电子、电力、通讯</a>
+            <span>〉</span>
+            <div class="childer childer-small">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-1.png" alt="">
+                    <i class="text">RedmiBook 13</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-2.png" alt="">
+                    <i class="text">小米笔记本 15.6"</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-3.png" alt="">
+                    <i class="text">小米笔记本 13.3"</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-4.png" alt="">
+                    <i class="text">小米笔记本 12.5"</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-5.png" alt="">
+                    <i class="text">RedmiBook 14</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-6.png" alt="">
+                    <i class="text">小米游戏本</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-7.png" alt="">
+                    <i class="text">显示器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-8.png" alt="">
+                    <i class="text">小米平板4</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-9.png" alt="">
+                    <i class="text">键鼠套装</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-10.png" alt="">
+                    <i class="text">鼠标</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-11.png" alt="">
+                    <i class="text">转接器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-2-12.png" alt="">
+                    <i class="text">平板配件</i>
+                  </a>
+                </li>
+              </ul>
+              
+            </div>
+          </li>
+          <li class="bannerleft1">
+            <a href="">食品、果蔬、饮料、酒</a>
+            <span>〉</span>
+            <div class="childer childer-small">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-1.png" alt="">
+                    <i class="text">猪肉脯</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-2.png" alt="">
+                    <i class="text">蛋黄酥</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-3.png" alt="">
+                    <i class="text">烧饼</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-4.png" alt="">
+                    <i class="text">果蔬干</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-5.png" alt="">
+                    <i class="text">芒果</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-6.png" alt="">
+                    <i class="text">苹果</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-7.png" alt="">
+                    <i class="text">纤茶</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-8.png" alt="">
+                    <i class="text">红牛</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-9.png" alt="">
+                    <i class="text">可口可乐</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-10.png" alt="">
+                    <i class="text">五粮液</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-11.png" alt="">
+                    <i class="text">茅台酒</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-3-12.png" alt="">
+                    <i class="text">泸州老窖</i>
+                  </a>
+                </li>
+              </ul>
+              
+            </div> 
+          </li>
+          <li class="bannerleft1">
+            <a href="">工业、机械、五金</a>
+            <span>〉</span>
+            <div class="childer childer-big">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-1.png" alt="">
+                    <i class="text">水塔</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-2.png" alt="">
+                    <i class="text">永磁变频螺杆空压机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-3.png" alt="">
+                    <i class="text">空压机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-4.png" alt="">
+                    <i class="text">除尘器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-5.png" alt="">
+                    <i class="text">工业吸尘器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-6.png" alt="">
+                    <i class="text">粉碎机</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-7.png" alt="">
+                    <i class="text">机械表</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-8.png" alt="">
+                    <i class="text">机械五金</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-9.png" alt="">
+                    <i class="text">机械键盘</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-10.png" alt="">
+                    <i class="text">铝合金</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-11.png" alt="">
+                    <i class="text">五金零件</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-12.png" alt="">
+                    <i class="text">电饭煲</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-13.png" alt="">
+                    <i class="text">电磁炉</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-14.png" alt="">
+                    <i class="text">电水壶</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-15.png" alt="">
+                    <i class="text">滤水壶</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-16.png" alt="">
+                    <i class="text">落地风扇</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-17.png" alt="">
+                    <i class="text">投影仪</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-4-18.png" alt="">
+                    <i class="text">灯具</i>
+                  </a>
+                </li>
+              </ul>
+            </div> 
+          </li>
+          <li class="bannerleft1">
+            <a href="">家具、家电、家居</a>
+            <span>〉</span>
+            <div class="childer">
+              <!-- <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-1.png" alt="">
+                    <i class="text">小米手表</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-2.png" alt="">
+                    <i class="text">手环手带</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-3.png" alt="">
+                    <i class="text">VR</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-4.png" alt="">
+                    <i class="text">平衡车</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-5.png" alt="">
+                    <i class="text">滑板车</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-6.png" alt="">
+                    <i class="text">自行车</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-7.png" alt="">
+                    <i class="text">车载充电器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-8.png" alt="">
+                    <i class="text">平衡车配件</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-9.png" alt="">
+                    <i class="text">智能后视镜</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-10.png" alt="">
+                    <i class="text">智能记录仪</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-11.png" alt="">
+                    <i class="text">无线车充</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-12.png" alt="">
+                    <i class="text">充气宝 </i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-13.png" alt="">
+                    <i class="text">平衡轮</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-14.png" alt="">
+                    <i class="text">石英表</i>
+                  </a>
+                </li>
+              </ul> -->
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-1.png" alt="">
+                    <i class="text">冰箱</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-2.png" alt="">
+                    <i class="text">立式空调</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-3.png" alt="">
+                    <i class="text">壁挂空调</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-4.png" alt="">
+                    <i class="text">滚筒洗衣机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-5.png" alt="">
+                    <i class="text">Redmi全自动波轮洗衣机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-6.png" alt="">
+                    <i class="text">净水器</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-7.png" alt="">
+                    <i class="text">微波炉</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-8.png" alt="">
+                    <i class="text">电烤箱</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-9.png" alt="">
+                    <i class="text">扫地机器人</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-10.png" alt="">
+                    <i class="text">吸尘器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-11.png" alt="">
+                    <i class="text">空气净化器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-12.png" alt="">
+                    <i class="text">电饭煲</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-13.png" alt="">
+                    <i class="text">电磁炉</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-14.png" alt="">
+                    <i class="text">电水壶</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-15.png" alt="">
+                    <i class="text">滤水壶</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-16.png" alt="">
+                    <i class="text">落地风扇</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-17.png" alt="">
+                    <i class="text">投影仪</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-5-18.png" alt="">
+                    <i class="text">灯具</i>
+                  </a>
+                </li>
+              </ul> 
+            </div> 
+          </li>
+          <li class="bannerleft1">
+            <a href="">酒店、餐饮、旅游</a>
+            <span>〉</span>
+            <div class="childer">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-1.png" alt="">
+                    <i class="text">七天连锁酒店</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-2.png" alt="">
+                    <i class="text">厦门海尚雅歌酒店</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-3.png" alt="">
+                    <i class="text">厦门泰地万豪酒店</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-4.png" alt="">
+                    <i class="text">深圳彭年万丽酒店</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-5.png" alt="">
+                    <i class="text">深圳丽兹酒店</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-6.png" alt="">
+                    <i class="text">悦巢酒店</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-7.png" alt="">
+                    <i class="text">美豪酒店</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-8.png" alt="">
+                    <i class="text">雅斯特酒店</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-9.png" alt="">
+                    <i class="text">广西桂林旅游</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-10.png" alt="">
+                    <i class="text">四姑娘山二日游</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-11.png" alt="">
+                    <i class="text">西藏包车游</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-12.png" alt="">
+                    <i class="text">北疆十日游</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-13.png" alt="">
+                    <i class="text">稻城十日游</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-14.png" alt="">
+                    <i class="text">东山岛1日游</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-6-15.png" alt="">
+                    <i class="text">西藏七日游</i>
+                  </a>
+                </li>
+                
+              </ul>
+            </div> 
+          </li>
+          <li class="bannerleft1">
+            <a href="">安防、劳保、公共工程</a>
+            <span>〉</span>
+            <div class="childer childer-small">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-1.png" alt="">
+                    <i class="text">500W摄像头</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-2.png" alt="">
+                    <i class="text">防盗报警器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-3.png" alt="">
+                    <i class="text">TP-LINK摄像头</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-4.png" alt="">
+                    <i class="text">一键报警器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-5.png" alt="">
+                    <i class="text">可视对讲门铃</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-6.png" alt="">
+                    <i class="text">门窗传感器</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-7.png" alt="">
+                    <i class="text">WIFI远程防盗报警器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-8.png" alt="">
+                    <i class="text">红外报警器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-9.png" alt="">
+                    <i class="text">数字变频红光光缆</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-10.png" alt="">
+                    <i class="text">GSM多功能防盗主机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-11.png" alt="">
+                    <i class="text">户外无线防盗</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-7-12.png" alt="">
+                    <i class="text">其他配件</i>
+                  </a>
+                </li>
+              </ul>
+              
+            </div> 
+          </li>
+          <li class="bannerleft1">
+            <a href="">化工、环保、能源、橡塑            </a>
+            <span>〉</span>
+            <div class="childer childer-big">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-1.png" alt="">
+                    <i class="text">洗手机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-2.png" alt="">
+                    <i class="text">修剪器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-3.png" alt="">
+                    <i class="text">剃须刀</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-4.png" alt="">
+                    <i class="text">牙刷</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-5.png" alt="">
+                    <i class="text">吹风机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-6.png" alt="">
+                    <i class="text">体重秤</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-7.png" alt="">
+                    <i class="text">体脂称</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-8.png" alt="">
+                    <i class="text">早教启智</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-9.png" alt="">
+                    <i class="text">遥控电动</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-10.png" alt="">
+                    <i class="text">益智积木</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-11.png" alt="">
+                    <i class="text">儿童手表</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-12.png" alt="">
+                    <i class="text">儿童滑板车</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-13.png" alt="">
+                    <i class="text">婴儿推车</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-14.png" alt="">
+                    <i class="text">儿童书包</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-15.png" alt="">
+                    <i class="text">婴儿理发器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-16.png" alt="">
+                    <i class="text">儿童保温杯</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-17.png" alt="">
+                    <i class="text">健身车</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-18.png" alt="">
+                    <i class="text">走步机</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-8-19.png" alt="">
+                    <i class="text">点读笔</i>
+                  </a>
+                </li>
+                </ul>
+            </div> 
+          </li>
+          <li class="bannerleft1">
+            <a href="">农、林、牧、渔            </a>
+            <span>〉</span>
+            <div class="childer">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-1.png" alt="">
+                    <i class="text">Redmi小爱触屏音箱8</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-2.png" alt="">
+                    <i class="text">小爱音箱</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-3.png" alt="">
+                    <i class="text">音箱Pro</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-4.png" alt="">
+                    <i class="text">小爱触屏音箱</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-5.png" alt="">
+                    <i class="text">Redmi音箱</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-6.png" alt="">
+                    <i class="text">小米小爱音箱Play版</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-7.png" alt="">
+                    <i class="text">线控耳机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-8.png" alt="">
+                    <i class="text">蓝牙耳机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-9.png" alt="">
+                    <i class="text">头戴耳机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-10.png" alt="">
+                    <i class="text">品牌耳机</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-11.png" alt="">
+                    <i class="text">蓝牙音箱</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-12.png" alt="">
+                    <i class="text">小爱AI音箱</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-13.png" alt="">
+                    <i class="text">小米小爱音箱HD</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-9-14.png" alt="">
+                    <i class="text">k歌耳机</i>
+                  </a>
+                </li>
+              
+              </ul>
+              
+            </div> 
+          </li>
+          <li class="bannerleft1">
+            <a href="">生物、医疗、保健</a>
+            <span>〉</span>
+            <div class="childer">
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-1.png" alt="">
+                    <i class="text">小背包</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-2.png" alt="">
+                    <i class="text">双肩包</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-3.png" alt="">
+                    <i class="text">胸包</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-4.png" alt="">
+                    <i class="text">旅行箱</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-5.png" alt="">
+                    <i class="text">运动鞋</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-6.png" alt="">
+                    <i class="text">眼镜</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-7.png" alt="">
+                    <i class="text">床垫</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-8.png" alt="">
+                    <i class="text">枕头</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-9.png" alt="">
+                    <i class="text">饰品</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-10.png" alt="">
+                    <i class="text">螺丝刀</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-11.png" alt="">
+                    <i class="text">保温杯</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-12.png" alt="">
+                    <i class="text">伞</i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="childer-list">
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-13.png" alt="">
+                    <i class="text">驱蚊器</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-14.png" alt="">
+                    <i class="text">尤克里里</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-15.png" alt="">
+                    <i class="text">毛巾/浴巾</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-16.png" alt="">
+                    <i class="text">米兔</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/banner-10-17.png" alt="">
+                    <i class="text">笔</i>
+                  </a>
+                </li>
+               
+              </ul>
+              
+            </div> 
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <!-- 顶部内容 -->
+<div class="allnews">
+  <div class="news">
+      <div id="newbanner">
+        <div class="kn_title">
+          <h3>新闻快报</h3>
+        </div>
+        <div class="newmore">
+          <a target="_blank">更多></a>
+        </div>
+        <div class="clear"></div>
+      <div id="scroll-wrapper">
+        <ul class="list">
+          <li>
+            <span>
+              <a>优展</a>
+            </span>
+            <h5>
+              <a>
+                VR展会|“VR远程参展”已成疫情下的常规参展模式
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>新展</a>
+            </span>
+            <h5>
+              <a>
+                擦亮“重要窗口”!2022国际石材相关展会在等您!
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>分析</a>
+            </span>
+            <h5>
+              <a>
+                天然理石容易发生断裂?安装后还会吗?
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>分析</a>
+            </span>
+            <h5>
+              <a>
+                2022国际石材相关展会，你安排上了嘛!
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>分析</a>
+            </span>
+            <h5>
+              <a>
+                资讯!卢布暴跌.
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>新闻</a>
+            </span>
+            <h5>
+              <a>
+                相约2022中国建材行业相关展会，助力新动能!
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>新闻</a>
+            </span>
+            <h5>
+              <a>
+                关于展会五大你不知道的事
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>分析</a>
+            </span>
+            <h5>
+              <a>
+                石材常识100个，了解一下?
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>新闻</a>
+            </span>
+            <h5>
+              <a>
+                资讯|《青岛市促进会展业发展10条政策》发布
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>优展</a>
+            </span>
+            <h5>
+              <a>
+                VR展会|“远程参展”模式日渐火热
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>新闻</a>
+            </span>
+            <h5>
+              <a>
+                重磅消息!参展能获得政府补贴,最高15万!
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>新闻</a>
+            </span>
+            <h5>
+              <a>
+                对的时间做正确的选择，人生就赢了一半,2022国际石材展会向您发出邀请
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>分析</a>
+            </span>
+            <h5>
+              <a>
+                艺术家为之疯狂的石头:卡拉拉白
+              </a>
+            </h5>
+          </li>
+          <li>
+            <span>
+              <a>新闻</a>
+            </span>
+            <h5>
+              <a>
+                忙起来吧!石材人!2022国际石材展会
+              </a>
+            </h5>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <!-- partial -->
+        <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+        <script  src="js/script.js"></script>
+
+        <!-- 新闻 -->
+      <div class="contentArea">
+          <div class="contentNews">
+              <p class="contentTitle">新闻中心</p>
+              <ul>
+                  <li>
+                      <article>
+                          <p class="articleDate">9月<br>29日</p>
+                          <a href="#" class="articelTitle">2022年第五届中国（昆明）南亚安博会</a>
+                          <p class="articleContent">由云南省商务厅支持，昆明市商务局、云南省智慧城市集成服务商协会、云南省消防协会联合主办。</p>
+                      </article>
+                  </li>
+                  <li>
+                      <article>
+                          <p class="articleDate">4月<br>13日</p>
+                          <a href="#" class="articelTitle">2022成都定制家居及全屋定制展览会</a>
+                          <p class="articleContent">中国·成都建博会先后与中国建筑材料流通协会、中国五矿化工进出口商会达成战略合作，2022年将引入更多行业头牌企业入驻中国·成都建博会平台，将产品展示与前沿理念融合一体式呈现。</p>
+                      </article>
+                  </li><li>
+                  <article>
+                      <p class="articleDate">8月<br>23日</p>
+                      <a href="#" class="articelTitle">2022第14届（永康）国际机床展览会</a>
+                      <p class="articleContent">永康是“中国五金之都”，永康、武义、缙云三地突破区域产业，抱团转型，形成了永武缙五金产业集群和“半小时经济圈”，产业...</p>
+                  </article>
+              </li>
+          </ul>
+      </div>
+      <div class="contentActivity">
+          <p class="contentTitle">展会攻略</p>
+          <div class="contentActivity_section">
+              <img src="img/2048.jpg" alt="">
+              <ul>
+                <li>
+                  <p><a href="#"> 3.18-21日广州家具展全攻略！</a></p>
+                </li>
+                <li>
+                  <p><a href="#">AC-Joy全阵容全时间畅玩攻略！总宣</a></p>
+                </li>
+                  <li>
+                  <p><a href="#">第二届合肥旅博会盛大开幕，逛展全攻略</a></p>
+                  </li>
+                  <li>
+                  <p><a href="#">《理财》展会红木家具攻略</a></p>
+                  </li>
+                  <!-- <li>
+                    <p><a href="#">一文在手，看展不愁！</a></p>
+                  </li> -->
+                
+            
+              </ul>
+          </div>
+      </div>
+      <div class="contentContact">
+          <p class="contentTitle">联系我们</p>
+          <div class="contentContact_section">
+            <div class="firstcontact">
+              
+              <li class="teacher"><img src="img/a.png"><p>展会招募</p></li> <br />
+              <li class="mate"><img src="img/people.png"><p>钟同学</p></li> <br />
+              <li class="photo"><img src="img/telephone.png"><p>电话：19321111111</p></li> 
+              <li class="qq"><img src="img/QQ.png"><p>QQ：1771680949</p></li> 
+              <li class="email"><img src="img/email.png"><p>E-mail:1771680949@qq.com</p></li> 
+
+            <br />
+
+              <li class="teacher"><img src="img/a.png"><p>网站合作</p></li> <br />
+              <li><img src="img/people.png"><p>龚同学</p></li> 
+              <li><img src="img/telephone.png"><p>电话：19321111111</p></li> 
+              <li><img src="img/QQ.png"><p>QQ：18797175</p></li> 
+              <li><img src="img/email.png"><p>18797175@qq.com</p></li> 
+            </div> 
+            </ul>
+          </div>
+      </div>
+      </div>
+      
+  </div>    
+</div>
+  <div class="conbox">
+  <!-- 建材展 -->
+  <div class="cononebox">
+    <div class="conone">
+      <div class="conone-top">
+        <h2>建筑建材展</h2>
+          <div class="btns">
+            <a class="btn-left active">〈&nbsp;&nbsp;</a>
+            <a class="btn-right">&nbsp;&nbsp;〉</a>
+          </div>
+      </div>
+      <div class="conone-con-box">
+        <div class="conone-con">
+          <div class="conone-con1 danpin1">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin1.png">
+            </a>
+              <div class="con-wenzi1">
+              <a href="#">中国上海国际混凝土世界博览会</a>
+              </div>
+              <div class="con-wenzi2">
+                展会时间：2022年12月14日-16日
+              </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin2">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin2.png">
+            </a>
+            <div class="con-wenzi1">
+              <a href="#">中国嘉兴紧固件产业进出口博览会</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2022年11月
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin3">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin3.png">
+            </a>
+            <div class="con-wenzi1">
+              <a href="#">上海国际发泡材料技术工业展览会</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2022年4月
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin4">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin4.png">
+            </a>
+            <div class="con-wenzi1">
+              <a href="#">中国重庆市国际五金机电展览会</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2022年4月
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin5">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin5.png">
+            </a>
+            <div class="con-wenzi1">
+              <a href="#">中国东莞市国际机械五金模具展览会</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2022年10月
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin1">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin1.png">
+            </a>
+            <div class="con-wenzi1">
+            <a href="#">中国国际铝工业展览会</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2022年7月6日-8日
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin2">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin2.png">
+            </a>
+            <div class="con-wenzi1">
+              <a href="#">中国(广州)国际建筑装饰博览会</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2020年7月8日-11日
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin3">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin3.png">
+            </a>
+            <div class="con-wenzi1">
+              <a href="#">中国国际地面材料及铺装技术展览会</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2022年5月25日-27日
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin4">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin4.png">
+            </a>
+            <div class="con-wenzi1">
+              <a href="#">中国重庆市国际紧固件弹簧展览会</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2022年3月
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+          <div class="conone-con1 danpin5">
+            <a class="conone-imgbox" href="#">
+              <img class="conone-img" src="img/danpin5.png">
+            </a>
+            <div class="con-wenzi1">
+              <a href="#">中国乌鲁木齐国际建材展</a>
+            </div>
+            <div class="con-wenzi2">
+              展会时间：2020年5月
+            </div>
+            <div class="con-wenzi3"><a href="#">立即报名</a></div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- <div class="tiantianimg">
+     <img class="tiantianup" src="img/tiantian.png">
+    </div> -->
+  </div>
+    <!-- 电子电力展 -->
+  <div class="con">
+      <div class="con-top">
+        <h2  class="con-top-left">中国电子电力展</h2>
+        <a class="jiadian-topright" href="">查看全部</a>
+      </div>
+        <div class="con-con">
+          <div class="con-con-left ">
+            <a href="#"><img src="img/con1.jpg"></a>
+          </div>
+        <div class="con-con-right jiadian">
+          <div class="con-con-right-con active">
+            <div class="con-con-righttop">
+              <div class="con-con-right1 ">
+               
+                <a class="con-img" href="#">
+                  <img src="img/con2.png">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国电子展（上海</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年10月
+                </div>
+                <div class="con-wenzi3">
+                  <a href="#">立即报名</a>
+                </div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/con3.png">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国（深圳）电子展</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年4月
+                </div>
+                <div class="con-wenzi3">
+                  <a href="#">立即报名</a>
+                </div>
+                
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/con4.png">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国国际表面贴装和微组装技术大会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2020年11月
+                </div>
+                <div class="con-wenzi3">
+                  <a href="#">立即报名</a>
+              </div>
+                
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/con5.png">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国家用数码网络论坛</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2020年3月
+                </div>
+                <div class="con-wenzi3"><a href="#">立即报名</a></div>
+              </div>
+            </div>
+            <div class="con-con-rightbottom">
+              <div class="con-con-right1 ">
+                <a class="con-img" href="#">
+                  <img src="img/con6.png">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国苏州电子信息博览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2020年10月
+                </div>
+                <div class="con-wenzi3"><a href="#">立即报名</a></div>
+                
+              </div>
+              <div class="con-con-right2 show-xiala">
+                <a class="con-img" href="#">
+                  <img src="img/con7.png">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国华南电子制造展</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2020年8月30日-31日
+                </div>
+                <div class="con-wenzi3">
+                  <a href="#">立即报名</a>
+                </div>
+                
+              </div>
+              <div class="con-con-right2 show-xiala">
+                <a class="con-img" href="#">
+                  <img src="img/con8.png">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国上海电子设备展</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2020年4月25日-27日
+                </div>
+                <div class="con-wenzi3">
+                  <a href="#">立即报名</a>
+              </div>
+                
+              </div>
+              <div class="con-con-right2 show-xiala">
+                <a class="con-img" href="#">
+                  <img src="img/con9.png">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">澳门电子展(G2E ASIA )</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2020年6月3日-5日
+                </div>
+                <div class="con-wenzi3">
+                  <a href="#">立即报名</a>
+              </div> 
+              </div>
+            </div>
+          </div>    
+      </div>
+      <!-- <div class="dianshiimg">
+     <img class="dianshiup" src="img/dianshi.png">
+      </div> -->
+  </div>
+    <!-- 家电 -->
+    <div class="con-jiadian">
+      <div class="con-top">
+        <h2  class="con-top-left">交通运输展</h2>
+        <div class="con-top-right">
+          <ul class="zhineng">
+            <li class="remen-li active"><a href="#">汽配展</a></li>
+            <li class="remen-li"><a href="#">自行车展</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="con-con">
+        <div class="con-con-left">
+          <div class="con-con-lefttop">
+            <a href="">
+              <img src="img/jiadian1.jpg" alt="">
+            </a>
+          </div>
+          <div class="con-con-leftbottom">
+            <a href="">
+              <img src="img/jiadian2.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="con-con-right zhineng">
+          <div class="con-con-right-con active">
+            <div class="con-con-righttop">
+              <div class="con-con-right1 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian3.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">上海国际汽车零配件展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年12月1日-4日
+                </div>
+                <div class="con-wenzi3">
+                  <a href="#">立即报名</a>
+                </div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian4.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国成都国际汽车零部件展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年5月19日-21日
+                </div>
+                <div class="con-wenzi3">
+                  <a href="#">立即报名</a>
+                </div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian5.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国广州市国际汽车零部件展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年10月 
+                </div>
+                <div class="con-wenzi3"><a href="#">立即报名</a></div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian6.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">广州国际汽车用品零配件展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年9月
+                </div>
+                <div class="con-wenzi3"><a href="#">立即报名</a></s></div>
+              </div>
+            </div>
+            <div class="con-con-rightbottom">
+              <div class="con-con-right1">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian7.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国汽车用品（全球）采购交易会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2020年8月26日-28日
+                </div>
+                <div class="con-wenzi3"><a href="#">立即报名</a></div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian8.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">中国国际车用空调及冷藏技术展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2020年11月7日-9日
+                </div>
+                <div class="con-wenzi3"><a href="#">立即报名</a></s></div>
+                <div class="xiala">
+                </div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian9.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">台湾台北国际自行车展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年3月3日-31日
+                </div>
+                <div class="con-wenzi3"><a href="#">立即报名</a></div>
+              </div>
+              <div class="con-con-right2 con-con-right3">
+                <div class="con-one-conright1a">
+                  <div class="con-one-conright1a-wenzi">
+                    <a class="con-one-conright1a-wenzi1" href="#">
+                      中国国际自行车展
+                    </a>
+                    <p class="con-one-conright1a-wenzi2">
+                      <a href="#">立即报名</a>
+                    </p>
+                  </div>
+                  <a class="con-one-conright1a-img" href="#">
+                    <img src="img/jiadian10.jpg">
+                  </a>
+                </div>
+                <div class="con-one-conright1b">
+                  <div class="con-one-conright1b-wenzi">
+                    <a class="con-one-conright1b-wenzi1"href="#"> 
+                      浏览更多
+                    </a>
+                    <a class="con-one-conright1b-wenzi2"href="#">
+                      热门
+                    </a>
+                  </div>
+                  <a class="con-one-conright1b-img" href="#">
+                    <img src="img/dapei11.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="con-con-right-con">
+            <div class="con-con-righttop">
+              <div class="con-con-right1 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian1-1.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">国际冬季自行车展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年10月
+                </div>
+                <div class="con-wenzi3">
+                  立即报名
+                </div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian1-2.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">伯明翰国际自行车展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年4月22日-24日
+                </div>
+                <div class="con-wenzi3">
+                  立即报名
+                </div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian1-3.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">国际自行车展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年9月
+                </div>
+                <div class="con-wenzi3">立即报名</div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian1-4.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">日本千叶市国际自行车展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年11月
+                </div>
+                <div class="con-wenzi3">
+                 立即报名</s>
+                </div>
+              </div>
+            </div>
+            <div class="con-con-rightbottom">
+              <div class="con-con-right1 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian1-5.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">泰国曼谷国际自行车展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年10月
+                </div>
+                <div class="con-wenzi3">立即报名</div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian1-6.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">德国国际自行车贸易展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年7月13日-17日
+                </div>
+                <div class="con-wenzi3">立即报名</div>
+              </div>
+              <div class="con-con-right2 ">
+                <a class="con-img" href="#">
+                  <img src="img/jiadian1-7.jpg">
+                </a>
+                <div class="con-wenzi1">
+                <a href="#">捷克布尔诺国际自行车展览会</a>
+                </div>
+                <div class="con-wenzi2">
+                  展会时间：2022年11月
+                </div>
+                <div class="con-wenzi3">立即报名</div>
+              </div>
+              <div class="con-con-right2 con-con-right3">
+                <div class="con-one-conright1a">
+                  <div class="con-one-conright1a-wenzi">
+                    <a class="con-one-conright1a-wenzi1" href="#">
+                      台湾台中国际自行车展览会
+                    </a>
+                    <p class="con-one-conright1a-wenzi2">
+                      立即报名
+                    </p>
+                  </div>
+                  <a class="con-one-conright1a-img" href="#">
+                    <img src="img/jiadian1-8.jpg">
+                  </a>
+                </div>
+                <div class="con-one-conright1b">
+                  <div class="con-one-conright1b-wenzi">
+                    <a class="con-one-conright1b-wenzi1"href="#"> 
+                      浏览更多
+                    </a>
+                    <a class="con-one-conright1b-wenzi2"href="#">
+                      摩托车展
+                    </a>
+                  </div>
+                  <a class="con-one-conright1b-img" href="#">
+                    <img src="img/dapei11.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>    
+      </div>
+    </div>
+    <!-- 服务列表 -->
+  <!-- <div class="servicebox">
+    <div class="service">
+      <div class="servicetopbox">
+        <div class="servicetop">
+          <ul>
+            <li>
+            <a class="lia li1" href="#">&nbsp;&nbsp;&nbsp;&nbsp;预约维修服务</a>
+            </li>
+            <li>
+            <a class="lia li2" href="#">&nbsp;&nbsp;&nbsp;&nbsp;7天无理由退货</a>
+            </li>
+            <li>
+            <a class="lia li3" href="#">&nbsp;&nbsp;&nbsp;&nbsp;15天免费换货</a>
+            </li>
+            <li>
+            <a class="lia li4" href="#">&nbsp;&nbsp;&nbsp;&nbsp;满150元包邮</a>
+            </li>
+            <li>
+            <a class="lia li5" href="#">&nbsp;&nbsp;&nbsp;&nbsp;520余家售后网点</a>
+            </li>
+        </div>
+      </div>
+      <div class="servicebottombox">
+        <div class="servicebottom">
+          <div class="servicebottom-left">
+            <ul class="sercivebottom-left-list">
+              <li class="title">帮助中心</li>
+              <li><a href="#">账户管理</a></li>
+              <li><a href="#">购物指南</a></li>
+              <li><a href="#">订单操作</a></li>
+            </ul>
+            <ul class="sercivebottom-left-list">
+              <li class="title">服务支持</li>
+              <li><a href="#">售后政策</a></li>
+              <li><a href="#">自助服务</a></li>
+              <li><a href="#">相关下载</a></li>
+            </ul>
+            <ul class="sercivebottom-left-list">
+              <li class="title">线下门店</li>
+              <li><a href="#">小米之家</a></li>
+              <li><a href="#">服务网点</a></li>
+              <li><a href="#">授权体验店</a></li>
+            </ul>
+            <ul class="sercivebottom-left-list">
+              <li class="title">关于小米</li>
+              <li><a href="#">了解小米</a></li>
+              <li><a href="#">加入小米</a></li>
+              <li><a href="#">投资者关系</a></li>
+               <li><a href="#">企业社会责任</a></li>
+            </ul>
+            <ul class="sercivebottom-left-list">
+              <li class="title">关注我们</li>
+              <li><a href="#">新浪微博</a></li>
+              
+              <li><a href="#">官方微信</a></li>
+              <li><a href="#">联系我们</a></li>
+              <li><a href="#">公益基金会</a></li>
+            </ul>
+            <ul class="sercivebottom-left-list">
+              <li class="title">特色服务</li>
+              <li><a href="#">F 码通道</a></li>
+              <li><a href="#">礼物码</a></li>
+              <li><a href="#">防伪查询</a></li>
+            </ul>
+          </div>
+          <div class="servicebottom-right">
+            <p class="phone">400-100-5678</p>
+            <p class="time">周一至周日 8:00-18:00</p>
+            <p class="mianfei">（仅收市话费）</p>
+            <a class="kefu" href="#">
+              24小时在线客服
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- 版权列表 -->
+  
+   <div class="copybox">
+    <a class="lianjie">友情链接</a>
+    <div class="copy">
+    
+      <div class="copyleft">
+
+        <div class="copyleft1">
+        
+          <ul>
+            <li><a class="copyli" href="#">外贸批发网</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">VR云展会</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">装修设计</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">钢材批发</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">服装人才网</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">农机网</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">中国核电网</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">石牌坊</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">工业品采购</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">建材资讯</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">中式装修</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">关于我们</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli" href="#">问题反馈</a></li>
+            <li class="copyli1">丨</li>
+            <li><a class="copyli"href="#">SelectRegion</a></li>
+          </ul>
+        </div>
+        <div class="copyleft2">
+          <a class="copyleft2-1" href="#">&copy;mi.com</a> <a class="copyleft2-2">京ICP证110507号</a> 
+          <a class="copyleft2-1" href="#">京ICP备10046444号 </a>
+          <a class="copyleft2-1" href="">京公网安备11010802020134号 </a>
+          <a class="copyleft2-1" href="#">京网文[2020]0276-042号</a><br>
+          <a class="copyleft2-1" href="#">(京)网械平台备字(2018)第00005号 </a>
+          <a class="copyleft2-1" href="#">互联网药品信息服务资格证(京)-非营业性-2014-0090 </a>
+          <a class="copyleft2-1" href="#">营业执照 </a>
+          <a class="copyleft2-1" href="#">医疗器械质量公告</a><br>
+          <a class="copyleft2-1" href="#">增值电信业务许可证</a>
+          <a class="copyleft2-2">网络食品经营备案(京)【2018】WLSPJYBAHF-12</a>
+          <a class="copyleft2-1" href="#">食品经营许可证</a><br>
+          <a class="copyleft2-2">违法和不良信息举报电话：185-0130-1238</a>
+          <a class="copyleft2-1" href="#">知识产权侵权投诉</a> 
+          <a class="copyleft2-2">本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</a>
+
+        </div>
+        
+          
+       
+      </div>
+      <br>
+      <div class="copyright">
+        <a class="copy-active" href="#"><img src="img/copy1.png"></a>
+        <a href="#"><img src="img/copy2.png"></a>
+        <a href="#"><img src="img/copy3.png"></a>
+        <a href="#"><img src="img/copy5.png"></a>
+      </div>
+    </div>
+  </div> 
+    
+    
+   
+    
+  </div>
+ </body>
+</html>

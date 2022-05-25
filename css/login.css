@@ -1,0 +1,75 @@
+.hr{
+	border-top: 5px solid #CCCCCC;
+}
+
+.welcome{
+	color: #003366;
+	width: 50%;
+	font-size: 15px;
+	font-family: "book antiqua";
+	float: left;
+}
+
+.right{
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: right;
+}
+.left{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.link{
+	text-decoration: none;
+	color: #003366;
+}
+
+.login{
+	color: #003366;
+	font-size: 15px;
+	font-family: "book antiqua";
+	text-align: center;
+}
+
+.text{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.img img{
+	padding-left: 537px;
+	margin-top: 25px;
+	text-align: center;
+	width: 373px;
+	height: 228px;
+}
+.submit{
+  width: 30%;
+  background-color:#003366;
+  color: white;
+  padding: 10px 10px;
+  margin: 14px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.form{
+	width: 30%;
+	border-radius: 5px;
+	background-color: #f6f6f6;
+	padding:20px;
+	margin-left: 504px;
+}
+	
+.footer{
+	background-color: #CCCCCC;
+	text-align: center;
+	padding: 10px;
+	color: #003366;
+}
